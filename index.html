@@ -132,7 +132,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
 
   </li>
   </ul>
@@ -160,6 +160,157 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/06/es6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="小明">
+      <meta itemprop="description" content="今天也很美好!">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="demo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/06/es6/" class="post-title-link" itemprop="url">常用ES6语法 一</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-04-06 10:23:39 / 修改时间：10:41:28" itemprop="dateCreated datePublished" datetime="2021-04-06T10:23:39+08:00">2021-04-06</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="var、let、const的区别"><a href="#var、let、const的区别" class="headerlink" title="var、let、const的区别"></a>var、let、const的区别</h2><h5 id="1-在js中通常使用-var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升-这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。"><a href="#1-在js中通常使用-var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升-这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。" class="headerlink" title="1. 在js中通常使用 var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升,这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。"></a>1. 在js中通常使用 var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升,这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。</h5><h5 id="2-var-是函数级作用域，let是块级作用域"><a href="#2-var-是函数级作用域，let是块级作用域" class="headerlink" title="2. var 是函数级作用域，let是块级作用域"></a>2. var 是函数级作用域，let是块级作用域</h5><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  let <span class="selector-tag">a</span> = <span class="number">1</span></span><br><span class="line">&#125;<span class="comment">//打印a,结果---a is not defined</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">  <span class="selector-tag">var</span> <span class="selector-tag">b</span> = <span class="number">2</span></span><br><span class="line">&#125;<span class="comment">//打印b,结果---2</span></span><br></pre></td></tr></table></figure>
+
+
+<h5 id="3-let不允许在相同作用域内，重复声明同一个变量-var-可以声明多次"><a href="#3-let不允许在相同作用域内，重复声明同一个变量-var-可以声明多次" class="headerlink" title="3. let不允许在相同作用域内，重复声明同一个变量, var 可以声明多次"></a>3. let不允许在相同作用域内，重复声明同一个变量, var 可以声明多次</h5><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">let</span> a = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">3</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">4</span>;</span><br><span class="line">a  <span class="comment">// Identifier &#x27;a&#x27; has already been declared</span></span><br><span class="line">b  <span class="comment">// 4</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+
+
+<div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/06/cs/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="小明">
+      <meta itemprop="description" content="今天也很美好!">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="demo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/06/cs/" class="post-title-link" itemprop="url">测试</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-04-06 09:33:35 / 修改时间：09:36:51" itemprop="dateCreated datePublished" datetime="2021-04-06T09:33:35+08:00">2021-04-06</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一个测试</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+
+
+<div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -313,7 +464,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
