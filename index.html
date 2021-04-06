@@ -122,7 +122,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">0</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">1</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -189,7 +189,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-04-06 10:23:39 / 修改时间：10:41:28" itemprop="dateCreated datePublished" datetime="2021-04-06T10:23:39+08:00">2021-04-06</time>
+              <time title="创建时间：2021-04-06 10:23:39 / 修改时间：10:50:05" itemprop="dateCreated datePublished" datetime="2021-04-06T10:23:39+08:00">2021-04-06</time>
             </span>
 
           
@@ -203,10 +203,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="var、let、const的区别"><a href="#var、let、const的区别" class="headerlink" title="var、let、const的区别"></a>var、let、const的区别</h2><h5 id="1-在js中通常使用-var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升-这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。"><a href="#1-在js中通常使用-var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升-这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。" class="headerlink" title="1. 在js中通常使用 var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升,这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。"></a>1. 在js中通常使用 var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升,这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。</h5><h5 id="2-var-是函数级作用域，let是块级作用域"><a href="#2-var-是函数级作用域，let是块级作用域" class="headerlink" title="2. var 是函数级作用域，let是块级作用域"></a>2. var 是函数级作用域，let是块级作用域</h5><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  let <span class="selector-tag">a</span> = <span class="number">1</span></span><br><span class="line">&#125;<span class="comment">//打印a,结果---a is not defined</span></span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">  <span class="selector-tag">var</span> <span class="selector-tag">b</span> = <span class="number">2</span></span><br><span class="line">&#125;<span class="comment">//打印b,结果---2</span></span><br></pre></td></tr></table></figure>
-
-
-<h5 id="3-let不允许在相同作用域内，重复声明同一个变量-var-可以声明多次"><a href="#3-let不允许在相同作用域内，重复声明同一个变量-var-可以声明多次" class="headerlink" title="3. let不允许在相同作用域内，重复声明同一个变量, var 可以声明多次"></a>3. let不允许在相同作用域内，重复声明同一个变量, var 可以声明多次</h5><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">let</span> a = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">3</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">4</span>;</span><br><span class="line">a  <span class="comment">// Identifier &#x27;a&#x27; has already been declared</span></span><br><span class="line">b  <span class="comment">// 4</span></span><br></pre></td></tr></table></figure>
+          <h2 id="var、let、const的区别"><a href="#var、let、const的区别" class="headerlink" title="var、let、const的区别"></a>var、let、const的区别</h2><h5 id="1-在js中通常使用-var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升-这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。"><a href="#1-在js中通常使用-var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升-这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。" class="headerlink" title="1. 在js中通常使用 var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升,这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。"></a>1. 在js中通常使用 var会发生变量提升，即脚本开始运行时，变量已经存在了，但是没有值，所以会输出undefined。而let不会发生变量提升,这表示在声明它之前，变量是不存在的，这时如果用到它，就会抛出一个错误。</h5>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/04/06/es6/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -341,6 +346,13 @@
 
               <time title="创建时间：2021-04-02 09:52:40" itemprop="dateCreated datePublished" datetime="2021-04-02T09:52:40+08:00">2021-04-02</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-04-06 10:51:05" itemprop="dateModified" datetime="2021-04-06T10:51:05+08:00">2021-04-06</time>
+              </span>
 
           
 
@@ -354,19 +366,14 @@
 
       
           <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/04/02/hello-world/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -467,6 +474,12 @@
           <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
